@@ -73,6 +73,14 @@ Download this repository folder and open in Visual Studio Code.
 
 Remember to run `dart pub get` command before debugging to get all public packages, specified in `pubspec.yaml` file.
 
+### Example build explanation
+
+Besides some crucial files, like `pubspec.yaml` and other, created by this autamatically, our project consists of 4 folders:
+- `assets` - folder for Excel files we want to use in our code,
+- `outputs` - folder for Excel we create with code
+- `bin` - folder for `main()` functions, that we can run
+- `lib` - folder for creating variables, classes and function to use in `main()` function
+
 
    [Visual Studio Code]: <https://code.visualstudio.com>
    [pub.dev]: <https://pub.dev>
