@@ -5,6 +5,22 @@
 IDE is a software to run and edit your code.
 Download and install [Visual Studio Code], one of the most popular and complex IDE.
 ### 2. Create project folder
+
+
+> If you use Visual Studio Code, the easiest way to create a new dart project, that contains all essential files, is to use "New Dart Project" Command.
+
+> First, inside Visual Studio Code, press `Ctrl + Shift + P`. It will open command line.
+
+> In the command line type `Dart: New Project` and confirm.
+
+> VSC will ask you what project folder to create. For our purpose, `Console Application` is enough.
+
+> Select in which folder on your computer you want to create project file, and VSC will do this automatically.
+
+> You can skip this rest of this point.
+
+
+
 Create a folder for your dart code files and open it in Visual Studio Code.
 Inside you need to create a `pubspec.yaml` file, necessary, if you want to use dart public packages.
 
@@ -50,12 +66,12 @@ Inside your project folder create a file with `.dart` extension. It will contain
 To work with `excel` package we need an Excel file. Create an empty Excel inside project folder, in this example this is `dart_func.xlsx`.
 
 ## Dart basics
-Dart is very similar to java-script language.
+-- --
 
 ## Excel example
 Download this repository folder and open in Visual Studio Code.
-You should run `dart pub get` command.
-`source_code.dart` file have some basics examples of `excel` package abilities.
+
+Remember to run `dart pub get` command before debugging to get all public packages, specified in `pubspec.yaml` file.
 
 
    [Visual Studio Code]: <https://code.visualstudio.com>
