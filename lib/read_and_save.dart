@@ -8,7 +8,8 @@ import 'package:path/path.dart';
 // to make this functions work, you have to create a String variable equal to
 // path to 'dart_test' folder on your computer
 // change "pathToFolder" to correct path
-final String pathToFolder = "C:/Users/janis/flutter_projects/renx/dart_test";
+final String pathToFolder =
+    "C:/Users/biuro/OneDrive - Syma Group S.r.l/Documents/GitHub/dart_test";
 
 // -----
 // first func to read what Excel file contains
@@ -20,7 +21,7 @@ readExcel(String excelName) {
   var file = "$pathToFolder/assets/$excelName.xlsx";
   // we use dart io to read file as a list of bytes
   var bytes = File(file).readAsBytesSync();
-  // we decode bytes to create Excel class from excel ext
+  // we decode bytes to create Excel class from excel extension
   var excel = Excel.decodeBytes(bytes);
   // return excel file
   return excel;
