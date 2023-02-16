@@ -82,5 +82,11 @@ Besides some crucial files, like `pubspec.yaml` and other, created by this autam
 - `lib` - folder for creating variables, classes and function to use in `main()` function
 
 
+## Limitations
+
+`excel` package allows reading and writing data in Excel sheet, rename files and sheets. If you want more complex solution, the most extensive way to perform operations on Excel is python package `OpenPyXL`. With python it is possible to create Excel charts, pivot tables etc. directly from the macro code. To get more information check [OpenPyXL documentation].
+
+
    [Visual Studio Code]: <https://code.visualstudio.com>
    [pub.dev]: <https://pub.dev>
+   [OpenPyXL documentation]: <https://openpyxl.readthedocs.io/en/stable/index.html>
